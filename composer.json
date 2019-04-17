@@ -1,0 +1,25 @@
+{
+    "name": "skyree/php-colorpicker",
+    "description": "Pick a palette of dominant colors within an image",
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "homepage": "https://github.com/Skyree/php-colorpicker",
+    "authors": [
+        {
+            "name": "Skyree",
+            "email": "boulakras.loic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skyree\\ColorPicker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-imagick": "*",
+        "bdelespierre/php-kmeans": "@dev"
+    }
+}
