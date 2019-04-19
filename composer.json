@@ -1,6 +1,7 @@
 {
     "name": "skyree/php-colorpicker",
     "description": "Pick a palette of dominant colors within an image",
+    "keywords": ["colorpicking", "colorpicker", "pick", "dominant", "color", "palette", "image", "rgb"],
     "license": "MIT",
     "type": "library",
     "minimum-stability": "dev",
